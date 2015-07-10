@@ -1,23 +1,24 @@
-<widget id="com.example.hello" version="0.0.1"
-		xmlns="http://www.w3.org/ns/widgets" 
-		xmlns:cdv="http://cordova.apache.org/ns/1.0"
-		/>
-	<name>Pre Test</name>
-	<description>
-	Registration Form
-		</description>
-	<author email="shamsulakmalaine@gmail.com" href="http://phonegap.com">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
-		Shamsul Akmal
-	</author>	
+    <!-- versionCode is optional and Android only -->
+
+    <name>Profile Registration</name>
+
+    <description>
+        Registration
+    </description>
+
+    <author href="https://build.phonegap.com" email="shamsulakmalaine@gmail.com">
+        Shamsul Akmal
+    </author>
+	<icon src="a.png" />
 	
-	<content src="index.html"/>
-	<access origin="*" />
-	
-	<icon src="images/icon.jpg" />
-	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" /> 
-	<gap:plugin name="org.apache.cordova.file"/>
-	<gap:plugin name="org.apache.cordova.media-capture" />
-	 <gap:plugin name="org.apache.cordova.media" /> 
-	
-</widget>	
+	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+</widget>

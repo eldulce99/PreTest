@@ -1,16 +1,17 @@
 <widget id="com.example.hello" version="0.0.1"
-		gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+		<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 	<name>Pre Test</name>
 	<description>
 	Registration Form
 		</description>
-	<author>
-	Shamsul Akmal 
-		
+	<author email="shamsulakmalaine@gmail.com" href="http://phonegap.com">
+
+		Shamsul Akmal
 	</author>	
 	
 	<content src="index.html"/>
 	<access origin="*" />
 	
 	<icon src="images/icon.jpg" />
+	
 </widget>	

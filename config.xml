@@ -1,4 +1,6 @@
 <widget id="com.example.hello" version="0.0.1"
+		xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:cdv="http://cordova.apache.org/ns/1.0"
 		<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 	<name>Pre Test</name>
 	<description>
@@ -13,5 +15,6 @@
 	<access origin="*" />
 	
 	<icon src="images/icon.jpg" />
+	<gap:plugin name="org.apache.cordova.file"
 	
 </widget>	
